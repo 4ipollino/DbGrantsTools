@@ -19,23 +19,23 @@ public class NcDbConnection {
 
     /* we need to set connection parameters before connect */
 
-    public void setUsername(String username) {
+    public static void setUsername(String username) {
         NcDbConnection.username = username;
     }
 
-    public void setPassword(String password) {
+    public static void setPassword(String password) {
         NcDbConnection.password = password;
     }
 
-    public void setServer(String server) {
+    public static void setServer(String server) {
         NcDbConnection.server = server;
     }
 
-    public void setPort(String port) {
+    public static void setPort(String port) {
         NcDbConnection.port = port;
     }
 
-    public void setSid(String sid) {
+    public static void setSid(String sid) {
         NcDbConnection.sid = sid;
     }
 
