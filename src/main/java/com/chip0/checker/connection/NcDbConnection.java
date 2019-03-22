@@ -20,23 +20,23 @@ public class NcDbConnection {
     /* we need to set connection parameters before connect */
 
     public void setUsername(String username) {
-        this.username = username;
+        NcDbConnection.username = username;
     }
 
     public void setPassword(String password) {
-        this.password = password;
+        NcDbConnection.password = password;
     }
 
     public void setServer(String server) {
-        this.server = server;
+        NcDbConnection.server = server;
     }
 
     public void setPort(String port) {
-        this.port = port;
+        NcDbConnection.port = port;
     }
 
     public void setSid(String sid) {
-        this.sid = sid;
+        NcDbConnection.sid = sid;
     }
 
     /* connect and return the connection */
