@@ -26,7 +26,8 @@ public class mainApp {
 
             conn = NcDbConnection.connect();
             GrantsHelper helper = new GrantsHelper(conn);
-            helper.getObjectName("9146598830013700836");
+            helper.getObjectNameByID("9146598830013700836");
+            helper.getGrantsForObjectByID("1050");
         }
         finally {
             try {
